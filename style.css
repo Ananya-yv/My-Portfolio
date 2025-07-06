@@ -349,7 +349,7 @@ nav img{
   }
   #page-experience {
     width: 100%;
-    background-color: #f0ecf7;
+    background-color: #45214a;
     padding: 5vw 3vw;
 }
 
@@ -357,7 +357,7 @@ nav img{
     text-align: center;
     font-size: 3.5vw;
     margin-bottom: 4vw;
-    color: #45214a;
+    color: #f0ecf7;
 }
 
 .experience-container {
@@ -370,7 +370,7 @@ nav img{
 
 .experience-item {
     background-color: #ffffff;
-    border-left: 6px solid #45214a;
+    border-left: 6px solid #aa44c1;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     padding: 2vw;
     border-radius: 8px;
@@ -389,7 +389,7 @@ nav img{
 
 .experience-item h4 {
     font-size: 1.2vw;
-    color: #7091e6;
+    color: #aa44c1;
     margin-bottom: 1vw;
 }
 
@@ -410,4 +410,27 @@ nav img{
     .experience-item p {
         font-size: 3.5vw;
     }
+}
+.skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.skills-list li {
+    margin: 10px 0;
+    font-size: 1.7rem;
+    color: #f5f5f5;
+    display: flex;
+}
+
+.skills-list .label {
+    width: 200px; /* fixed width for alignment */
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.skills-list .value {
+    flex: 1;
 }
